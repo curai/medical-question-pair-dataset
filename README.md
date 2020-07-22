@@ -11,6 +11,9 @@ We present our doctors with a list of 1524 patient-asked questions randomly samp
 
 The first instruction generates a _positive_ question pair (similar) and the second generates a _negative_ question pair (different). With the above instructions, we intentionally frame the task such that positive question pairs can look very different by superficial metrics, and negative question pairs can conversely look very similar. This ensures that the task is not trivial.
 
+## Dataset format
+The dataset is formatted as `dr_id, question_1, question_2, label`. We used 11 different doctors for this task so `dr_id` ranges from 1 to 11. The label is 1 if the question pair is similar and 0 otherwise.
+
 ## Dataset statistics
 The final dataset contains 4567 unique questions. The minimum, maximum, median and average number of tokens in these questions are 4, 81, 20 and 22.675 respectively showing there is reasonable variance in the length of the questions. The shortest question is `Are fibroadenomas malignant?`
 
