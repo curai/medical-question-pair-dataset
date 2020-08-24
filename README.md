@@ -1,6 +1,6 @@
 # Medical Question Pairs (MQP) Dataset
 
-This repository contains a dataset of 3048 similar and dissimilar medical question pairs hand-generated and labeled by Curai's doctors. The dataset is described in detail in [TODO cite paper].
+This repository contains a dataset of 3048 similar and dissimilar medical question pairs hand-generated and labeled by Curai's doctors. The dataset is described in detail in [our paper](https://drive.google.com/file/d/1CHPGBXkvZuZc8hpr46HeHU6U6jnVze-s/view).
 
 ## Methodology
 We present our doctors with a list of 1524 patient-asked questions randomly sampled from the publicly available crawl of [HealthTap](https://github.com/durakkerem/Medical-Question-Answer-Datasets). Each question results in one similar and one different pair through the following instructions provided to the labelers:
